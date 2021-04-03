@@ -1,8 +1,13 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
-  return <h1>Project ...</h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
